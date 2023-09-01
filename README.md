@@ -12,3 +12,11 @@ It includes the following:
 * React frontend to register, login, logout, about
 * React Bootstrap UI library
 
+# Env Variables
+ Rename the .env.example file to .env and add the following
+ ```
+DB_USER=user
+DB_PASSWORD=admin
+JWT_SECRET=kodeklan
+PORT=8080
+```
