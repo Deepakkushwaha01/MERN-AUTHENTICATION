@@ -13,10 +13,20 @@ It includes the following:
 * React Bootstrap UI library
 
 # Env Variables
- Rename the .env.example file to .env and add the following
+ Create .env file and add the following
  ```
 DB_USER=user
 DB_PASSWORD=admin
 JWT_SECRET=kodeklan
 PORT=8080
+```
+Change the JWT_SECRET to what you want
+
+# Install Dependencies (frontend & backend)
+ ```
+cd frontend
+npm install
+
+cd server
+npm install
 ```
