@@ -12,6 +12,12 @@ It includes the following:
 * React frontend to register, login, logout, about
 * React Bootstrap UI library
 
+# Some Snaps of Projects
+First user will register 
+![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/631bfa15-3eee-474c-a212-7903360c648b)
+
+
+
 # Env Variables
  Create .env file and add the following
  ```
@@ -30,3 +36,13 @@ npm install
 cd server
 npm install
 ```
+
+# Run 
+```
+cd frontend
+npm run dev
+
+cd server
+node index.js
+```
+
