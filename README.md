@@ -15,6 +15,7 @@ It includes the following:
 # Some Snaps of Projects
 First user will register 
 ![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/631bfa15-3eee-474c-a212-7903360c648b)
+![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/73e3ae5f-a40a-494a-8814-b362fae4e8b5)
 
 
 
