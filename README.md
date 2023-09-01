@@ -29,6 +29,10 @@ It includes the following:
 
 ![login_About](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/a62c66c1-1d2c-44e1-9373-8d31b7b0173d)
 
+5. Home page without login
+ ![logout_Home](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/e5350df5-857f-4e95-ab11-12fd97d340ad)
+6. Home after login 
+![login_Home](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/650fc964-13d0-4a2e-89c1-e2c922383d78)
 
 # Env Variables
  Create .env file and add the following
