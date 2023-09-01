@@ -13,10 +13,21 @@ It includes the following:
 * React Bootstrap UI library
 
 # Some Snaps of Projects
-First user will register 
-![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/631bfa15-3eee-474c-a212-7903360c648b)
-![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/73e3ae5f-a40a-494a-8814-b362fae4e8b5)
+1. user will register 
 
+![registration](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/631bfa15-3eee-474c-a212-7903360c648b)
+
+2. User will not access about page without registration
+   
+![logout_About](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/a925535b-601a-4019-a028-3ff8fda29b09)
+
+3. To access the about page login first , whenever user login it will generate token and store in cookie , To generate token we use JWT Authentication
+
+![login](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/a6cbc4cb-8a95-4fde-b34d-80addd66fb79)
+
+4. To access the about it will validate user by checking user's token which store in cookie
+
+![login_About](https://github.com/Deepakkushwaha01/MERN-AUTHENTICATION/assets/140472340/a62c66c1-1d2c-44e1-9373-8d31b7b0173d)
 
 
 # Env Variables
