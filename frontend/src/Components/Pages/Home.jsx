@@ -1,12 +1,35 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { styled } from 'styled-components'
 import { Use } from '../Context/ContentProvider'
-
+import axios from "axios";
+import {useNavigate } from 'react-router-dom';
 
 const Home = () => {
 
-  const{state}=Use();
-  console.log(state);
+  const{state,newstate}=Use();
+console.log(state)
+  const navigate=useNavigate();
+
+const validateUser=async()=>{
+ try {
+  const res=await axios.get("http://localhost:8080/validUser");
+ console.log("axios calling");
+ console.log(res);
+ await newstate(res.data.validUser);
+ 
+ } catch (error) {
+
+
+
+}
+}  
+
+useEffect(()=>{
+  validateUser();
+},[])
+
+
+
 
   return (
     <Div>
